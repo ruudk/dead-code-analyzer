@@ -1,0 +1,14 @@
+{
+  "name": "ruudk/dead-code-analyzer",
+  "description": "Dead code analyzer for PHP.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ruudk\\DeadCodeAnalyzer\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
