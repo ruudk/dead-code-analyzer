@@ -1,0 +1,7 @@
+{{ define "content" }}
+    <p>Tracking since {{.Since}}</p>
+    <h2>Active code ({{.ActiveCount}})</h2>
+    <ul>
+        {{range .Active}}<li>{{ .Class }}: {{ .Count }}</li>{{end}}
+    </ul>
+{{ end }}

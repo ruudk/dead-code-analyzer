@@ -1,0 +1,10 @@
+{{ define "content" }}
+<form action="/reset" method="post">
+    <p>Enter all the classes you want to keep track of.</p>
+    <code>find src -name '*.php' | sed 's/.php//g' | sed 's@src/@@g' | sed "s@/@\\\@g"</code>
+    <br><br>
+    <textarea autofocus name="classes" rows=10 style="width: 100%">
+</textarea>
+    <input type="submit" value="Reset">
+</form>
+{{ end }}
