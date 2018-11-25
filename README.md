@@ -2,6 +2,8 @@
 
 Finds dead code in PHP projects by hooking into the autoloader.
 
+![Dead Code Analyzer Dashboard](screenshot.png)
+
 ## Installation
 
 1. [Start Go server](server/README.md)
